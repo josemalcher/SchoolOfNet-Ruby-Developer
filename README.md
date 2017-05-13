@@ -9,7 +9,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 Índice
 
 - [Introdução](#parte1)
-[](#parte2)
+- [Nosso ambiente](#parte2)
 [](#parte3)
 [](#parte4)
 [](#parte5)
@@ -42,7 +42,18 @@ Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem d
 
 ---
 
-## <a name="parte2"> </a>
+## <a name="parte2">Nosso ambiente</a>
+
+
+["The Best Environment for Rails on Windows"](http://www.akitaonrails.com/2016/07/26/the-year-of-linux-on-the-desktop-it-s-usable#best-windows-dev-env)
+
+[O Melhor Ambiente Windows para Rails](http://www.akitaonrails.com/2009/01/12/o-melhor-ambiente-windows-para-rails)
+
+[Configurando Ruby, Rails, MySQL, PostgreSQL e Git no Ubuntu](https://nandovieira.com.br/configurando-ruby-rails-mysql-postgresql-git-no-ubuntu)
+
+[Configurando Ruby, Rails, MySQL e Git no Windows](https://nandovieira.com.br/configurando-ruby-rails-mysql-e-git-no-windows)
+
+[Instalando o Ruby On Rails no Windows](http://www.devmedia.com.br/instalando-o-ruby-on-rails-no-windows/20472)
 
 [Voltar ao Índice](#indice)
 
