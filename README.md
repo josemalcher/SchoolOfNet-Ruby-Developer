@@ -59,7 +59,21 @@ Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem d
 
 ---
 
-## <a name="parte3"> </a>
+## <a name="parte3">Um pouco sobre a história</a>
+
+A linguagem Ruby foi concebida em 24 de fevereiro de 1993 por Yukihiro Matsumoto, que pretendia criar uma nova linguagem que balanceava programação funcional com a programação imperativa. Matsumoto afirmou: "Eu queria uma linguagem de script que fosse mais poderosa do que Perl, e mais orientada a objetos do que Python.
+
+[Sobre o Ruby](https://www.ruby-lang.org/pt/about/)
+
+O Ruby é uma linguagem com um cuidadoso equilíbrio. O seu criador, Yukihiro “Matz” Matsumoto, uniu partes das suas linguagens favoritas (Perl, Smalltalk, Eiffel, Ada e Lisp) para formar uma nova linguagem que equilibra a programação funcional com a programação imperativa.
+
+Ele disse com frequência que está “tentando tornar o Ruby natural, não simples”, de uma forma que reflita a vida.
+
+Elaborando sobre isto, acrescenta:
+
+O Ruby é simples na aparência, mas muito complexo no interior, tal como o corpo humano.
+
+
 
 [Voltar ao Índice](#indice)
 
