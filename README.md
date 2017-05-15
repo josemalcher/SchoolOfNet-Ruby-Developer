@@ -207,7 +207,7 @@ end
 ```
 [Estruturas Condicionais](https://unbcjr.gitbooks.io/learning-ruby/content/estruturas_condicionais.html)
 
-[Estruturas de decisão e repetição no Ruby](Estruturas de decisão e repetição no Ruby)
+[Estruturas de decisão e repetição no Ruby](http://www.devmedia.com.br/estruturas-de-decisao-e-repeticao-no-ruby/33679)
 
 [Ruby – Passo 4: Estruturas condicionais](https://elizbsi.wordpress.com/2012/12/02/ruby-passo-4-estruturas-condicionais/)
 
