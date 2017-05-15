@@ -18,14 +18,10 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Tipos](#parte8)
 - [Iterações](#parte9)
 - [Trabalhando com coleções](#parte10)
-[](#parte11)
-[](#parte12)
-[](#parte13)
-[](#parte14)
-[](#parte15)
-[](#parte16)
-[](#parte17)
-[](#parte18)
+- [Input e Output (IO)](#parte11)
+- [Exceções](#parte12)
+- [Classes](#parte13)
+- [Finalizando](#parte14)
 
 ---
 
@@ -397,49 +393,55 @@ end while $option != 4
 
 ---
 
-## <a name="parte11"></a>
+## <a name="parte11">Input e Output (IO)</a>
+
+```ruby
+# fname = 'test.txt'
+# file = File.open(fname, 'w')
+# file.puts 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI'
+# file.close
+# #################
+# file = File.open('test.txt', 'r')
+# contents = file.read
+# puts contents
+# #################
+# File.open('test.txt').readlines.each do |line|
+#     puts line
+# end
+
+# #################
+puts Dir.pwd
+
+Dir.mkdir('files') unless File.exists? ('files')
+
+files_dir = Dir.open Dir.pwd + '/files'
+
+files_dir.each do |file|
+  puts file
+end
+```
+
+[4.25 - Para saber mais: um pouco de IO](https://www.caelum.com.br/apostila-ruby-on-rails/mais-ruby-classes-objetos-e-metodos/#4-25-para-saber-mais-um-pouco-de-io)
+
+[Input & output in Ruby](http://zetcode.com/lang/rubytutorial/io/)
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte12"> </a>
+## <a name="parte12">Exceções</a>
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte13"> </a>
+## <a name="parte13">Classes</a>
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte14"> </a>
-
-[Voltar ao Índice](#indice)
-
----
-
-## <a name="parte15"> </a>
-
-[Voltar ao Índice](#indice)
-
----
-
-## <a name="parte16"> </a>
-
-[Voltar ao Índice](#indice)
-
----
-
-## <a name="parte17"> </a>
-
-[Voltar ao Índice](#indice)
-
----
-
-## <a name="parte18"> </a>
+## <a name="parte14">Finalizando</a>
 
 [Voltar ao Índice](#indice)
 
