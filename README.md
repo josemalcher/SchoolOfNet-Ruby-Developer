@@ -6,7 +6,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 
 ---
 
-Índice
+## Índice Iniciando com Ruby
 
 - [Introdução](#parte1)
 - [Nosso ambiente](#parte2)
@@ -22,6 +22,21 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Exceções](#parte12)
 - [Classes](#parte13)
 - [Finalizando](#parte14)
+
+## Índice Ruby Orientado a Objetos
+
+- [Introdução](#parte15)
+- [Orientação a objetos](#parte16)
+- [Iniciando o Projeto e Curiosidade](#parte17)
+- [Revisão sobre classes](#parte18)
+- [Instance variable e class variable](#parte19)
+- [Métodos e atributos](#parte20)
+- [Cotrole de Acesso e Construtores](#parte21)
+- [Encapsulamento](#parte22)
+- [Heranças](#parte23)
+- [Overides](#parte24)
+- [Overloading e ducking type](#parte25)
+- [Finalizando](#parte26)
 
 ---
 
@@ -527,6 +542,80 @@ puts leonan.age()
 [Desenv. Ágil para Web com Ruby on Rails](https://www.caelum.com.br/apostila-ruby-on-rails/)
 
 [Ruby](https://brizeno.wordpress.com/category/ruby/)
+
+[Voltar ao Índice](#indice)
+
+---
+
+# Ruby Orientado a Objetos
+
+## <a name="parte15"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte16"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte17"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte18"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte19"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte20"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte21"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte22"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte23"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte24"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte25"> </a>
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte26"> </a>
 
 [Voltar ao Índice](#indice)
 
