@@ -15,7 +15,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Operadores](#parte5)
 - [Condicionais](#parte6)
 - [Métodos e blocks](#parte7)
-[](#parte8)
+- [Tipos](#parte8)
 [](#parte9)
 [](#parte10)
 [](#parte11)
@@ -263,7 +263,33 @@ block_1 {puts 'Esse é meu primeiro bloco'}
 
 ---
 
-## <a name="parte8"> </a>
+## <a name="parte8">Tipos</a>
+
+```ruby
+my_string = 'This is a new teste from String class'
+
+puts my_string.reverse
+
+range = (2..4).to_a
+puts range
+
+teacher = Array.[]('L', 'LC', 'W')
+teacher_2 = Array.[]('J', 'JC', 'K')
+
+teacher.concat(teacher_2)
+
+puts teacher
+
+peoples = Hash["jose"=>10, "Luiz"=> 50, "Maria"=>5]
+puts peoples
+puts "#{peoples['jose']}"
+```
+
+[Tipos de Dados](https://unbcjr.gitbooks.io/learning-ruby/content/tipos_de_dados.html)
+
+[Ruby – Passo2: Prints, Comentários e Tipos básicos](https://elizbsi.wordpress.com/2012/11/30/ruby-passo2-prints-comentarios-e-tipos-basicos/)
+
+
 
 [Voltar ao Índice](#indice)
 
