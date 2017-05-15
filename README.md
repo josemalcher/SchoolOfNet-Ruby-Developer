@@ -10,8 +10,8 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 
 - [Introdução](#parte1)
 - [Nosso ambiente](#parte2)
-[](#parte3)
-[](#parte4)
+- [Um pouco sobre a história](#parte3)
+- [Hello World Ruby](#parte4)
 [](#parte5)
 [](#parte6)
 [](#parte7)
@@ -79,7 +79,24 @@ O Ruby é simples na aparência, mas muito complexo no interior, tal como o corp
 
 ---
 
-## <a name="parte4"> </a>
+## <a name="parte4">Hello World Ruby </a>
+
+Código da aula
+
+```ruby
+# puts 'Olá mundo'
+# print 'Olá Mundo'
+# printf('Olá Mundo')
+
+#  var // local
+# @var // instance
+# $var //global
+
+puts "Qual é seu nome? "
+$name = STDIN.gets
+puts 'Olá '+ $name + ' Bem vindo '
+```
+
 
 [Voltar ao Índice](#indice)
 
