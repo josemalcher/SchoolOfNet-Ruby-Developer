@@ -522,6 +522,12 @@ puts leonan.age()
 
 ## <a name="parte14">Finalizando</a>
 
+[Introdução ao Ruby](https://unbcjr.gitbooks.io/learning-ruby/content/)
+
+[Desenv. Ágil para Web com Ruby on Rails](https://www.caelum.com.br/apostila-ruby-on-rails/)
+
+[Ruby](https://brizeno.wordpress.com/category/ruby/)
+
 [Voltar ao Índice](#indice)
 
 ---
