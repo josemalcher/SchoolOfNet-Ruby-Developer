@@ -13,7 +13,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Um pouco sobre a história](#parte3)
 - [Hello World Ruby](#parte4)
 - [Operadores](#parte5)
-[](#parte6)
+- [Condicionais](#parte6)
 [](#parte7)
 [](#parte8)
 [](#parte9)
@@ -148,7 +148,69 @@ puts number1 <=> number2 # 1 0 -1 união das funções
 
 ---
 
-## <a name="parte6"> </a>
+## <a name="parte6">Condicionais</a>
+
+```ruby
+$age = 0
+$name = ''
+$result = ''
+
+puts 'What is your name ?'
+$name = STDIN.gets
+
+puts 'How old are you? '
+$age - STDIN.gets.to_i
+
+$result = if($age <= 20)
+            'to old'
+          else
+            'to young'
+          end
+# ternaria
+# $result = ($age <= 20) ? 'jovem' : 'velho!'
+
+=begin
+if ($age <= 20)
+  puts 'To old'
+else
+  puts 'To young'
+end
+=end
+
+=begin
+if ($age >= 20)
+  puts 'To old'
+elsif ($age <= 18)
+  puts 'To young'
+end
+=end
+
+$car_is_on = true
+# puts 'Car : ' unless $car_is_on # é executado se for false
+unless $car_is_on
+  puts 'car !!'
+end
+
+# Case
+$week_day = 2
+case $week_day
+  when $week_day = 1
+    puts 'Monday'
+  when $week_day = 2
+    puts 'Tuestday'
+  when $week_day = 3
+    puts 'Wednesday'
+  else
+    puts 'invalid option'
+end
+
+```
+[Estruturas Condicionais](https://unbcjr.gitbooks.io/learning-ruby/content/estruturas_condicionais.html)
+
+[Estruturas de decisão e repetição no Ruby](Estruturas de decisão e repetição no Ruby)
+
+[Ruby – Passo 4: Estruturas condicionais](https://elizbsi.wordpress.com/2012/12/02/ruby-passo-4-estruturas-condicionais/)
+
 
 [Voltar ao Índice](#indice)
 
