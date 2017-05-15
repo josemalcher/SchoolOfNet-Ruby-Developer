@@ -14,7 +14,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Hello World Ruby](#parte4)
 - [Operadores](#parte5)
 - [Condicionais](#parte6)
-[](#parte7)
+- [Métodos e blocks](#parte7)
 [](#parte8)
 [](#parte9)
 [](#parte10)
@@ -216,9 +216,50 @@ end
 
 ---
 
-## <a name="parte7"> </a>
+## <a name="parte7">Métodos e blocks</a>
+
+```ruby
+# Methodos
+$number = 0
+
+puts "Number: "
+$number = STDIN.gets.to_i
+
+def fatorial(number)
+  if number == 0
+    return 1
+  else
+    return number * fatorial(number - 1)
+  end
+end
+
+$result = fatorial($number)
+
+puts $result
+
+
+# blocks
+
+def block_1()
+  puts 'Dentro do bloco!'
+  yield
+end
+
+block_1 {puts 'Esse é meu primeiro bloco'}
+```
+[Blocos](https://unbcjr.gitbooks.io/learning-ruby/content/blocos.html)
+
+[Ruby – Passo 6: Métodos](https://elizbsi.wordpress.com/2012/12/02/ruby-passo-6-metodos/)
+
+[Conceitos na prática: Ruby block (yield)](https://brizeno.wordpress.com/2013/10/01/conceitos-na-pratica-ruby-block-yield/)
+
+[Anatomia de Blocks/Closures em Ruby](http://www.akitaonrails.com/2007/11/30/anatomia-de-ruby-blocks-closures)
+
+[Blocks in Ruby](http://radar.oreilly.com/2015/09/blocks-in-ruby.html)
 
 [Voltar ao Índice](#indice)
+
+
 
 ---
 
