@@ -431,6 +431,43 @@ end
 
 ## <a name="parte12">Exceções</a>
 
+```ruby
+# def method_excep
+#     raise TypeError, 'You must need anything'
+# end
+
+# method_excep()
+#
+
+# begin
+#     puts 'This is my try'
+#     raise TypeError, 'This is my exception'
+#     puts 'Hello'
+# rescue Exception => e
+#     puts e.message
+#     puts e.backtrace
+# end
+#
+
+begin
+  file = File.open('aaaa')
+  if file.exists?
+    puts 'Exists'
+  else
+    raise 'my exception'
+  end
+rescue Exception => e
+  puts e.message
+  # file = nil
+  # puts file
+  # retry
+end
+```
+
+[4.22 - Manipulando erros e exceptions](https://www.caelum.com.br/apostila-ruby-on-rails/mais-ruby-classes-objetos-e-metodos/#4-22-manipulando-erros-e-exceptions)
+
+[Ruby – Passo 7: Exception](https://elizbsi.wordpress.com/2012/12/03/ruby-passo-7-exception/)
+
 [Voltar ao Índice](#indice)
 
 ---
