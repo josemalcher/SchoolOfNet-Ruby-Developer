@@ -16,7 +16,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 - [Condicionais](#parte6)
 - [Métodos e blocks](#parte7)
 - [Tipos](#parte8)
-[](#parte9)
+- [Iterações](#parte9)
 [](#parte10)
 [](#parte11)
 [](#parte12)
