@@ -6,8 +6,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 
 ---
 
-## [Índice Iniciando com Ruby](#indice)
-
+## <a name="indice">Índice Iniciando com Ruby</a>
 - [Introdução](#parte1)
 - [Nosso ambiente](#parte2)
 - [Um pouco sobre a história](#parte3)
