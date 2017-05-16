@@ -591,7 +591,20 @@ Até os números inteiros são objetos, da classe Fixnum:
 
 ---
 
-## <a name="parte17"> </a>
+## <a name="parte17">Iniciando o projeto e curiosidade</a>
+
+```ruby
+class Hello
+  def say
+    puts 'Hello word'
+  end
+end
+
+hello = Hello.new
+hello.say
+```
+
+
 
 [Voltar ao Índice](#indice)
 
