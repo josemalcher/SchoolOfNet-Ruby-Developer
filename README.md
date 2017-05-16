@@ -654,7 +654,64 @@ p = Pessoa.new
 
 ---
 
-## <a name="parte19"> </a>
+## <a name="parte19">Instance variable e class variable</a>
+
+```ruby
+class Person
+  @name = 'Leonan'
+  @@age = 20
+end
+
+puts Person.instance_variables
+puts Person.class_variables
+
+# puts Person.new.name = 'LEONAN'
+
+```
+
+As variáveis que começam com @ são atributos de instância, ou seja, é diferente para cada novo objeto. Já as que começam com @@ são atributos de classe, e é igual para todos objetos de uma classe.
+
+O método initialize é um método construtor da classe. Ele cria uma instância com os argumentos que são passados a ele.
+
+```ruby
+# classe.rb
+
+def initialize(nome, endereco)
+  @nome = nome
+  @endereco = endereco
+
+  @@quantidade_de_pessoas += 1
+end
+
+```
+
+Ao fazermos @nome = nome, estamos atribuindo à variável de instância @nome o conteúdo da variável nome passada como argumento do método initialize. Assim como todos os outros atributos.
+
+Na última linha, o código @@quantidade_de_pessoas += 1 incrementa em um a variável de classe que representa a quantidade total de pessoas criadas.
+
+[4.11 - Atributos e propriedades: acessores e modificadores](https://www.caelum.com.br/apostila-ruby-on-rails/mais-ruby-classes-objetos-e-metodos/#4-11-atributos-e-propriedades-acessores-e-modificadores)
+
+Atributos, também conhecidos como variáveis de instância, em Ruby são sempre privados e começam com @. Não há como alterá-los de fora da classe; apenas os métodos de um objeto podem alterar os seus atributos (encapsulamento!).
+
+```ruby
+class Pessoa
+  def muda_nome(novo_nome)
+    @nome = novo_nome
+  end
+
+  def diz_nome
+    "meu nome é #{@nome}"
+  end
+end
+
+p = Pessoa.new
+p.muda_nome "João"
+p.diz_nome
+
+# => "João"
+```
+
+
 
 [Voltar ao Índice](#indice)
 

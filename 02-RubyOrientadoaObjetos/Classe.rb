@@ -1,11 +1,9 @@
 class Person
-  - age
-  - name
-
-  -walk
-  -say
-  -think
+  @name = 'Leonan'
+  @@age = 20
 end
 
-@person = Person.new
-@person2 = Person.new
+puts Person.instance_variables
+puts Person.class_variables
+
+# puts Person.new.name = 'LEONAN'
