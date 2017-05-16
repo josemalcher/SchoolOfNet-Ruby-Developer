@@ -549,7 +549,16 @@ puts leonan.age()
 
 # Ruby Orientado a Objetos
 
-## <a name="parte15"> </a>
+## <a name="parte15">Introduçao</a>
+
+Referências:  
+
+[Desenv. Ágil para Web com Ruby on Rails](https://www.caelum.com.br/apostila-ruby-on-rails/)
+
+[Orientação a objetos](https://unbcjr.gitbooks.io/learning-ruby/content/orientacao_a_objetos_md.html)
+
+[Ruby – Passo 8: Classes e Objetos](https://elizbsi.wordpress.com/)
+
 
 [Voltar ao Índice](#indice)
 
