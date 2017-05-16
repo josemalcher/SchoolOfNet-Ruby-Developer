@@ -717,7 +717,97 @@ p.diz_nome
 
 ---
 
-## <a name="parte20"> </a>
+## <a name="parte20">Métodos e Atributos</a>
+
+```ruby
+class Person
+
+  attr_reader :name, :age, :height
+  attr_writer :name
+
+  def say(name)
+    puts 'I\'m talking with ' + name
+  end
+
+  def walk
+    puts 'I\'m Walking'
+  end
+end
+
+jose = Person.new
+jose.say('José Malcher Jr.')
+jose.walk
+jose.name = 'JOSÉ STÉLIO MALCHER JR.'
+puts jose.name
+```
+
+há métodos que auxiliam o acesso a atributos:
+
+```
+attr_reader :atributo
+# permite que o atributo seja lido
+
+attr_writer :atributo
+# permite que o atributo seja alterado
+
+attr_accessor :atributo
+# permite que o atributo seja lido e alterado
+```
+
+Lembre-se:
+Para reutilizar uma classe: load
+Criar o Construtor:     initialize
+Criar Variável de instância: @var
+Criar Variável de classe: @@var
+
+Métodos de acesso:
+Atributo de leitura:    attr_reader
+Atributo de escrita:    attr_writer
+Atributo de leitura e escrita:  attr_accessor
+
+Modificadores de controle de acesso:
+Public – Podem ser acessados por qualquer método em qualquer objeto.
+Private – Só podem ser chamados dentro de seu próprio objeto.
+Protected – Podem ser acessados em seus descendentes.
+
+Imagine uma classe chamada Carro que tenha os atributos: marca, modelo, cor e tanque.
+Usando as seguintes definições de leitura e escrita:
+Marca – leitura
+Modelo – escrita
+Cor – leitura e escritaTanque – escrita protegida e leitura pública
+
+```ruby
+class Carro
+ 
+  attr_reader :marca     #atributo de leitura
+  attr_writer :modelo      #atributo de escrita
+  attr_accessor :cor     # atributo de leitura e escrita
+  protected    #necessário um método de acesso (set)
+  attr_writer :tanque
+  public
+  attr_reader :tanque
+ 
+  #construtor
+  def initialize(marca,modelo,cor,tanque)
+    @marca = marca
+    @modelo = modelo
+    @cor = cor
+    @tanque = tanque
+  end
+ 
+  #toString
+  def to_s
+    "Marca:#{@marca} Modelo:#{@modelo} Cor:#{@cor} Tanque:#{@tanque}"
+  end
+ 
+  def setTanque(valor)
+    @tanque=valor
+  end
+ 
+end
+
+# https://elizbsi.wordpress.com/2012/12/08/ruby-passo-8-classes-e-objetos/
+```
 
 [Voltar ao Índice](#indice)
 
