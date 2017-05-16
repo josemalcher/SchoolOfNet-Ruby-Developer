@@ -564,7 +564,28 @@ Referências:
 
 ---
 
-## <a name="parte16"> </a>
+## <a name="parte16">Orientanção a objetos</a>
+
+A programação orientada a objetos refere-se ao paradigma de programação onde o desenvolvimento do software é regido pelas definições e relacionamentos entre os objetos que compõem o mesmo.
+
+Ruby é uma linguagem puramente orientada a objetos, bastante influenciada pelo Smalltalk. Desta forma, tudo em Ruby é um objeto, até mesmo os tipos básicos que vimos até agora.
+
+Uma maneira simples de visualizar isso é através da chamada de um método em qualquer um dos objetos:
+```ruby
+"strings são objetos".upcase()
+:um_simbolo.object_id()
+```
+
+Até os números inteiros são objetos, da classe Fixnum:
+
+```ruby
+10.class()
+```
+
+[Mais Ruby: classes, objetos e métodos](https://www.caelum.com.br/apostila-ruby-on-rails/mais-ruby-classes-objetos-e-metodos/)
+
+
+
 
 [Voltar ao Índice](#indice)
 
