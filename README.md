@@ -6,7 +6,7 @@ https://www.schoolofnet.com/curso-iniciando-com-ruby/
 
 ---
 
-## Índice Iniciando com Ruby
+## [Índice Iniciando com Ruby](#indice)
 
 - [Introdução](#parte1)
 - [Nosso ambiente](#parte2)
@@ -610,7 +610,45 @@ hello.say
 
 ---
 
-## <a name="parte18"> </a>
+## <a name="parte18">Revisão sobre classes</a>
+
+A classe representa um conjunto de objetos (um modelo), apesar deles possuirem atributos iguais, eles têm valores diferentes em seus atributos.
+Em Ruby, temos um exemplo de uma classe:
+
+```ruby
+# classe.rb
+class Pessoa
+
+  @@quantidade_de_pessoas = 0
+
+  def initialize(nome, endereco, data_de_nascimento)
+    @nome = nome
+    @endereco = endereco
+    @data_de_nascimento = data_de_nascimento
+
+    @@quantidade_de_pessoas += 1
+  end
+
+end
+# https://unbcjr.gitbooks.io/learning-ruby/content/classe.html
+```
+
+Exemplos
+
+```ruby
+class Pessoa
+  def fala
+    puts "Sei Falar"
+  end
+
+  def troca(roupa, lugar="banheiro")
+    "trocando de #{roupa} no #{lugar}"
+  end
+end
+
+p = Pessoa.new
+# o objeto apontado por p já nasce com os métodos fala e troca.
+```
 
 [Voltar ao Índice](#indice)
 
