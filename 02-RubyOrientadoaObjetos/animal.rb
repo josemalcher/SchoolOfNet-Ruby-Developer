@@ -23,9 +23,23 @@ class Kangaroo < Animal
   end
 end
 
+class Dolphin < Animal
+  def initialize(name, weight, fins)
+    @name, @weight, @paws = name, weight, fins
+  end
+
+  def paws #sobreescrito <<------------------------------
+    @paws = 20
+  end
+  #sobreescrito <<------------------------------
+  def walk
+    puts 'Im swimming with ' + @paws.to_s + ' fins'
+  end
+end
 
 dog = Dog.new('Liza', 2.0, 4)
 kangaroo = Dog.new('Ted', 2.0, 2)
+dolphin = Dolphin.new('Zed', 40.0, 2)
 
 puts dog.name
 puts dog.paws
@@ -35,6 +49,10 @@ puts kangaroo.name
 puts kangaroo.paws
 puts kangaroo.walk
 
+
+puts dolphin.name
+puts dolphin.paws
+puts dolphin.walk
 
 # dog = Animal.new('Dog', 2.0)
 
